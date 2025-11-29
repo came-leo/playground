@@ -1,0 +1,62 @@
+
+main {
+  width: 950px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-family: georgia;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 20px;
+  /*padding-right: 80px;*/
+}
+
+fieldset legend {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rebeccapurple;
+}
+
+.separation {
+  margin-bottom: 10px;
+  /*display: flex;
+  justify-content: space-between;*/
+}
+
+label, input, textarea {
+  font-size: 1.3em;
+}
+
+input {
+  padding: 5px 10px;
+}
+
+textarea {
+  display: block;
+  margin-top: 10px;
+  width: 50%;
+  height: 150px;
+}
+
+.btn-container {
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  max-width: 200px;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.3em;
+  margin: 10px auto;
+}

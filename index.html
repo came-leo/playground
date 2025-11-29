@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Playground</title>
+</head>
+<body>
+    <main>
+      <h1>FORMULAIRE D'INSCRIPTION AU CENTRE DE FORMATION</h1>
+
+      <form>
+        <fieldset>
+          <legend>Information de l'élève</legend>
+
+          <div class="separation">
+            <label>Nom : </label>
+            <input type="text" id="nom" name="nom">
+          </div>
+
+          <div class="separation">
+            <label>Prénom : </label>
+            <input type="text" id="prenom" name="prenom">
+          </div>
+
+          <div class="separation">
+            <label>Sexe : </label>
+
+            <label for="male">M : </label>
+            <input type="radio" id="male" name="sexe" value="male">
+
+            <label for="femelle">F : </label>
+            <input type="radio" id="femelle" name="sexe" value="femelle">
+          </div>
+
+          <div class="separation">
+            <label>Naissance : </label>
+            <input type="date" id="naissance" name="naissance">
+          </div>
+
+          <div class="separation">
+            <label>Adresse : </label>
+            <input type="text" id="adresse" name="adresse">
+          </div>
+
+          <div class="separation">
+            <label>Telephone : </label>
+            <input type="phone" id="phone" name="phone">
+          </div>
+
+          <div class="separation">
+            <label>Email : </label>
+            <input type="email" id="email" name="email">
+          </div>
+        </fieldset>
+
+
+        <fieldset>
+          <legend>Information des parents/tuteur</legend>
+
+          <div class="separation">
+            <label>Nom : </label>
+            <input type="text" id="nom" name="nom">
+          </div>
+
+          <div class="separation">
+            <label>Adresse : </label>
+            <input type="text" id="adresse" name="adresse">
+          </div>
+
+          <div class="separation">
+            <label>Telephone : </label>
+            <input type="phone" id="phone" name="phone">
+          </div>
+
+          <div class="separation">
+            <label>Email : </label>
+            <input type="email" id="email" name="email">
+          </div>
+        </fieldset>
+
+
+        <fieldset>
+          <legend>Inventaire des pieces déposées</legend>
+
+          <div class="separation">
+            <input type="checkbox" id="formulaire" name="formulaire">
+            <label for="formulaire">Formulaire d'inscription</label>           
+          </div>
+
+          <div class="separation">
+            <input type="checkbox" id="licence" name="licence">
+            <label for="licence">Licence</label>           
+          </div>
+
+          <div class="separation">
+            <input type="checkbox" id="bac" name="bac">
+            <label for="bac">Certificat du Bac</label>        
+          </div>
+
+          <div class="separation">
+            <input type="checkbox" id="releve-note" name="releve-note">
+            <label for="releve-note">Relévé de notes</label>
+          </div>
+
+          <div class="separation">
+           <input type="checkbox" id="acte-naissance" name="acte-naissance">
+           <label for="acte-naissance">Acte de naissance</label>   
+          </div>
+
+          <div class="separation">           
+            <input type="checkbox" id="piece-identite" name="piece-identite">
+            <label for="piece-identite">Piece d'identification</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Choix de module</legend>
+          <label for="module">Module</label>
+          <select id="module" name="module">
+            <option>Web développement</option>
+            <option>Web design</option>
+            <option>Infographie</option>
+            <option>Réseaux informatique</option>
+            <option>Maintenace informatique</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Zone de signature</legend>
+          <label>Signature :</label>
+          <textarea></textarea>
+        </fieldset>
+
+        <div class="btn-container">
+          <button>Soumettre</button>
+        </div>
+      </form>
+    </main>
+</body>
+</html>
